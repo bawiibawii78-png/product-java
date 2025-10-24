@@ -1,10 +1,10 @@
-public class StringStack {
+public class StackString {
     private String[] stack;
     private int top;
     private int capacity;
 
     // Constructor
-    public StringStack(int size) {
+    public StackString(int size) {
         stack = new String[size];
         capacity = size;
         top = -1;
